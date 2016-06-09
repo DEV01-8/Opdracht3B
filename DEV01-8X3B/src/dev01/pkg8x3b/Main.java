@@ -32,7 +32,7 @@ public class Main extends PApplet {
     @Override
     public void setup() {
         background(255, 255, 255);
-        surface.setTitle("Hoogtebestand Rotterdam Oost");
+        surface.setTitle("Visualisatie Rotterdam Oost Hoogtebestand 2012");
 
         results = CSVParser.read();  //Get all items from parseCSV
         startMap();                 //use map() method to convert RDX and RDY to pixels
